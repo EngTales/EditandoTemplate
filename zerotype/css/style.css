@@ -61,7 +61,7 @@ img {
 	margin-right: 20px;
 }
 #header .logo a {
-	background: url(../images/logo.png) no-repeat center top;
+	background: url(../images/logo.png) no-repeat center;
 	color: #000;
 	display: block;
 	font: 15px/30px 'Play';
@@ -70,6 +70,7 @@ img {
 	padding-top: 68px;
 	text-decoration: none;
 	text-transform: uppercase;
+	text-align: center;
 }
 /** Navigation **/
 #navigation {
@@ -91,16 +92,16 @@ img {
 	text-align: center;
 }
 #navigation li a {
-	color: #818181;
+	color: black;
 	font-size: 15px;
 	line-height: 30px;
 	text-decoration: none;
 }
 #navigation li a:hover {
-	color: #000;
+	color: black;
 }
 #navigation li.active a {
-	color: #f99600;
+	color: red;
 }
 #adbox {
 	background: url(../images/bg-adbox.jpg) repeat-x left top;
@@ -118,10 +119,11 @@ img {
 }
 #adbox h1, #adbox h2 {
 	color: #2c2c2c;
-	font-size: 60px;
+	font-size: 40px;
 	line-height: 60px;
 	margin: 0;
 	text-transform: uppercase;
+	text-align: center;
 }
 #adbox h2 {
 	font-size: 30px;
@@ -132,10 +134,11 @@ img {
 	font-size: 16px;
 	line-height: 24px;
 	margin: 0;
+	text-align: justify;
 }
 #adbox p span {
 	display: block;
-	font-size: 12px;
+	font-size: 15px;
 	width: 360px;
 	padding: 24px 0;
 	text-align: center;
@@ -143,7 +146,7 @@ img {
 #adbox p span b {
 	font-weight: normal;
 	display: block;
-	width: 256px;
+	width: 360px;
 }
 /*------------------------------ CONTENTS ------------------------------*/
 #contents {
